@@ -10,7 +10,6 @@
 #include <dt-bindings/zmk/mouse.h> // Include for mouse key codes
 
 // Helper macro for QMK-like shifted keys (if not already defined elsewhere)
-#define S(code) &kp LSHIFT code
 
 / {
     keymap {
